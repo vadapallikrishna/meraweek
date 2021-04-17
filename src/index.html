@@ -1,0 +1,51 @@
+<html>
+  <head>
+  <title>MeraWeek</title>
+  <link rel="stylesheet" href="./style.css">
+
+  </head>
+  <body>
+    <nav>
+      <h1>MeraWeek</h1>
+      <p class="user">Sign In</p>
+      <p>Create Task</h1>
+      <p>Marketplace</h1>
+    </nav>
+    
+    <section>
+      <h2>New Task</h2>
+      <form>
+        <input id="task" type="text" placeholder="Enter Task">
+        <button type="button" id="create">Create Task</button>
+      </form>
+    </section>
+    <h2>Progress</h2>
+    <div id="info">
+
+      <p id="current-task">Task Name</p>
+       <button type="button" id="start">start</button>
+      <button type="button" id="stop">stop</button>
+      <button type="button" id="end">End</button>
+    </div>
+    <div id="timeline">
+    </div>
+    <h1>Organise</h1>
+    <section class="boards">
+      
+      <div class="board">
+        <h1>New</h1>
+        <div class="card">
+          <p class="card-title">Create Window</p>
+          <p class="card-desc">Create Description</p>
+        </div>
+      </div>
+      <div class="board">
+        <h1>Ongoing</h1>
+      </div>
+      <div class="board">
+        <h1>Completed</h1>
+      </div>
+    </section>
+    <script  src="./script.js"></script>
+  </body>
+</html>

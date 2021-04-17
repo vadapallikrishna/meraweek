@@ -1,0 +1,124 @@
+body {
+  font-family: helvetica, sans-serif;
+}
+
+
+nav {
+  display: inline-flex;
+}
+
+.boards {
+  display: inline-flex;
+  margin: 15px;
+  display: none;
+}
+
+.board {
+  width: 400px;
+  height: 700px;
+  background: lightgrey;
+  margin-left: 15px;
+  box-shadow: 1px 1px 0px 2px grey;
+  padding: 10px;
+  color: black;
+}
+
+nav p {
+  margin: 0px;
+  position: relative;
+  left: 40px;
+
+  margin-left: 10px;
+}
+
+form {
+  font-size: 24px;
+  margin: 15px;
+}
+
+input {
+  height: 30px;
+  width: 500px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size:24px;
+}
+
+button {
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 10px;
+  background: black;
+  color: white;
+}
+
+#timeline{
+  margin: 15px;
+  border: 1px solid black;
+  height: 50px;
+  border-radius: 8px;
+  display:inline-flex;
+  width: 80%;
+}
+
+
+.progress {
+  height: 50px;
+}
+
+#info{
+  display: none;
+  padding-left: 15px;
+  font-size: 26px;
+  justify-content:space-between;
+ }
+
+#current-task{
+  padding-right: 20px;
+}
+
+#info > * {
+  display: inline-block;
+}
+
+button:disabled {
+  background: grey;
+}
+
+
+.started {
+  background: darkblue;
+}
+
+.stop {
+  background: skyblue;
+}
+
+.completed {
+  background: steelblue;
+}
+
+#completed {
+  font-size: 25px;
+}
+
+.card {
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow:1px 1px 0px 0px black;
+}
+
+nav h1 {
+  margin: 0px;
+}
+
+nav p:hover {
+  border-bottom: 1px solid black;
+}
+
+.card-title {
+  font-size: 18px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}

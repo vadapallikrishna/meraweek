@@ -1,0 +1,170 @@
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0px;
+}
+
+
+nav {
+  display: inline-flex;
+  background: black;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+}
+
+.boards {
+  display: inline-flex;
+  margin: 15px;
+}
+
+.board {
+  width: 400px;
+  height: 700px;
+  background: lightgrey;
+  margin-left: 15px;
+  box-shadow: 1px 1px 0px 2px grey;
+  padding: 10px;
+  color: black;
+}
+
+nav p {
+  margin: 0px;
+  position: relative;
+  
+
+  margin-left: 10px;
+}
+
+form {
+  font-size: 24px;
+  margin: 15px;
+}
+
+input {
+  height: 50px;
+  width: 500px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size:24px;
+}
+
+button {
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 10px;
+  background: black;
+  color: white;
+}
+
+#timeline{
+  margin: 15px;
+  border: 1px solid black;
+  height: 50px;
+  border-radius: 8px;
+  display:inline-flex;
+  width: 80%;
+}
+
+
+.progress {
+  height: 50px;
+}
+
+#info{
+  display: none;
+  padding-left: 15px;
+  font-size: 26px;
+  justify-content:space-between;
+ }
+
+#current-task{
+  padding-right: 20px;
+}
+
+#info > * {
+  display: inline-block;
+}
+
+button:disabled {
+  background: grey;
+}
+
+
+.started {
+  background: darkblue;
+}
+
+.stop {
+  background: skyblue;
+}
+
+.completed {
+  background: steelblue;
+}
+
+#completed {
+  font-size: 25px;
+}
+
+.card {
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow:1px 1px 0px 0px black;
+}
+
+nav h1 {
+  margin: 0px;
+}
+
+nav p:hover {
+  border-bottom: 1px solid black;
+}
+
+.card-title {
+  font-size: 18px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.tasks > *{
+  display: inline-block;
+}
+
+.tasks .send {
+  background: darkgrey;
+  padding:15px;
+  width: 100%;
+  position: fixed;
+  bottom: 10px;
+}
+
+.tasks .send button {
+  height: 50px;
+}
+
+
+
+.tasks ul {
+  list-style:none;
+  background:whitesmoke;
+  margin-top:10px;
+  padding: 0px;
+  width: 400px;
+  margin:0px;
+  height: 89%;
+}
+
+.tasks ul p {
+  margin: 0px;
+  padding: 10px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.tasks ul li {
+  border-bottom: 1px solid;
+  padding: 0px;
+  background: gainsboro;
+}
